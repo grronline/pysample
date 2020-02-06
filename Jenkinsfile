@@ -1,3 +1,4 @@
 node{
-sh "pwd;ls -l"
+def OUT=script:"pwd;id;ls -l ..",returnStdout:true
+println OUT
 }
