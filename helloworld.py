@@ -7,4 +7,4 @@ CMD='export NEWVALUE="WELCOME TO PYTHON"'
 RETURNVALUE=os.system(CMD)
 print "return value for OS command:"+RETURNVALUE
 
-print "hello world:"+USERNAME+"LOGIID:"+LOGINID
+print "hello world:"+USERNAME+"LOGIID:"+str(LOGINID)
